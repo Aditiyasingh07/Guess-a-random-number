@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: cadetblue;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 2.5rem;    
+}
+main{
+    border: 2px solid;
+    display: flex;
+    row-gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    color: whitesmoke;
+    background-color: rosybrown;
+    margin: auto;
+    padding-top: 30px;
+    /* margin-top: 120px; */
+}
+p{
+    font-size: 2rem;
+}
+h1{
+    font-size: 4.5rem;
+}
+input{
+    height: 40px;
+    width: 150px;
+    border: none;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 20px;
+}
+button{
+    height: 40px;
+    width: 200px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: forestgreen;
+}
+#newGame{
+    border: 2px solid darkolivegreen;
+    border-radius: 20px;
+    padding: 15px;
+    cursor: pointer;
+    background-color: darkolivegreen;
+}
